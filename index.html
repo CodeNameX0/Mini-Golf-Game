@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Golf Game</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+    canvas {
+      border: 1px solid black;
+    }
+    #score {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 20px;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="score">Score: 0 | Level: 1</div>
+  <canvas id="gameCanvas" width="800" height="400"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
